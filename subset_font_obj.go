@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/signintech/gopdf/fontmaker/core"
+	"github.com/scorredoira/pdf/fontmaker/core"
 )
 
 // ErrCharNotFound char not found

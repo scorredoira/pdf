@@ -1,6 +1,9 @@
 gopdf
 ====
 
+CLONE OF https://github.com/signintech/gopdf
+--------------------------------------------
+
 gopdf is a simple library for generating PDF document written in Go lang.
 
 A minimum version of Go 1.13 is required.
@@ -17,7 +20,7 @@ A minimum version of Go 1.13 is required.
 
 ## Installation
  ```
- go get -u github.com/signintech/gopdf
+ go get -u github.com/scorredoira/pdf
  ```
 
 
@@ -28,7 +31,7 @@ A minimum version of Go 1.13 is required.
 package main
 import (
 	"log"
-	"github.com/signintech/gopdf"
+	"github.com/scorredoira/pdf"
 )
 
 func main() {
@@ -75,7 +78,7 @@ pdf.Cell
 package main
 import (
 	"log"
-	"github.com/signintech/gopdf"
+	"github.com/scorredoira/pdf"
 )
 
 func main() {
@@ -110,7 +113,7 @@ package main
 
 import (
 	"log"
-	"github.com/signintech/gopdf"
+	"github.com/scorredoira/pdf"
 )
 
 func main()  {
@@ -155,7 +158,7 @@ package main
 
 import (
     "log"
-    "github.com/signintech/gopdf"
+    "github.com/scorredoira/pdf"
 )
 
 func main() {
@@ -267,7 +270,7 @@ package main
 import (
 	"log"
 
-	"github.com/signintech/gopdf"
+	"github.com/scorredoira/pdf"
 )
 
 
@@ -296,7 +299,7 @@ Import existing PDF power by package [gofpdi](https://github.com/phpdave11/gofpd
 package main
 
 import (
-        "github.com/signintech/gopdf"
+        "github.com/scorredoira/pdf"
         "io"
         "net/http"
         "os"
@@ -383,7 +386,7 @@ package main
 import (
 	"log"
 
-	"github.com/signintech/gopdf"
+	"github.com/scorredoira/pdf"
 )
 
 func main() {
